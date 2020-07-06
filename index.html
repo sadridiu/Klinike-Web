@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Klinika dentare Ilsa</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css">
+</head>
+<body>
+	<header>
+
+		<div class="logo">
+			<img src="img/logo.jpeg">
+			<h2>
+				Klinika Dentare Ilsa
+			</h2>
+		</div>
+
+		<nav>
+			<ul>
+				<li>Home</li>
+				<li>
+					<a href="#services">
+						Services
+					</a>
+				</li>
+				<li>Our Work</li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<div id="home" class="full-background first-bg">
+		<h1>Ne kujdesemi per buzeqeshjen tuaj!</h1>
+	</div>
+	<div id="services">
+		<div class="column">
+			<img src="img/call.png">
+			<br>
+			<br>
+			<h2>Contact us</h2>
+		</div>
+		<div class="column">
+			<img src="img/hour.png">
+			<br>
+			<br>
+			<h2>Opening Hours</h2>
+		</div>
+		<div class="column">
+			<a href="#iframesrc" onclick="ndrysho()">
+				<img src="img/book.png">
+				<br>
+				<br>
+				<h2 >Book an appointment</h2>
+			</a>
+		</div>
+		<div class="column">
+			<img src="img/location.png">
+			<br>
+			<br>
+			<h2>Location</h2>
+		</div>
+	</div>
+
+	<footer>
+		<div class="sherbimet" id="sherbimet">
+				<h3>Sherbimet tona</h3>
+				<br>
+				<ul>
+					<li>Maskerinat Transparente</li>
+					<li>Implantologji me ngarkesë të menjëhershme</li>
+					<li>Dhëmballa e pjekurisë</li>
+					<li>Estetika Dentare</li>
+					<li>Faseta Dentare</li>
+					<li>Zbardhim profesional</li>
+					<li>Sëmundjet paradontale</li>
+					<li>Sinus Lift</li>
+				</ul>
+		</div>
+		<div class="aboutUs" id="aboutUs">
+			<h3>About Me</h3>
+			<br>
+			Vi per ju prej nje Experience 20 Vjecare <br>
+			Ne fushen e Ortodontise <br>
+			E Specializuar ne Itali <br>
+			Kam bazuar eksperiencën time <br> në kërkimet më të avancuara për t’i kthyer <br> pacientëve të mi buzëqeshjen <br>
+			në përditshmërinë e tyre.
+		</div>
+
+	</footer>
+<iframe id="iframesrc" src="" width="0" height="0" style="visibility: hidden;"></iframe>
+
+
+<script>
+			function ndrysho() {
+				document.getElementById("iframesrc").src = "book.html";
+				document.getElementById("iframesrc").width = "100%";
+				document.getElementById("iframesrc").height = "420px";
+				document.getElementById("iframesrc").style = "visibility: visible;";
+			}
+		</script>
+</body>
+</html>

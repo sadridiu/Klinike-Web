@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="bookstyle.css">
+	<title>Rezervo</title>
+</head>
+
+<body>
+	<section class="showcase">
+		<div class="image-container">
+			<header id="showcase">
+				<div class="div1">
+
+					<div class="div2">
+						<form name="formaIme" action="demo_form.asp" onsubmit="return vleresoFormen();"  method="post">
+
+						<input type="text" placeholder="Name">
+						<input type="email" name="email" placeholder="Email">
+						<input type="text" placeholder="Subject">
+					</div>
+					<div class="div3">
+						<textarea placeholder="Message" >
+					</textarea>
+					</div>
+					<input type="submit" name="btn" value="Submit">
+				</form>
+				</div>
+		</div>
+
+	</section>
+
+	<script>
+	function vleresoFormen()
+	{
+	var x=document.forms["formaIme"]["email"].value;
+	var atpoz=x.indexOf("@");
+	var dotpoz=x.lastIndexOf(".");
+	if (atpoz<1 || dotpoz<atpoz+2 || dotpoz+2>=x.length)
+	  {
+	  alert("Nuk është një adresë e vlefshme");
+	  return false;
+	  }
+	else {
+		pompt("Faleminderit;");
+	}
+	}
+	</script>
+
+</body>
+
+</html>

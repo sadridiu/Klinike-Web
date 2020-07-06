@@ -1,0 +1,27 @@
+Lenda : Elemente të Avancuar në Web Design
+Project
+Punuar nga studenti: Sadri Pervana
+Univeristeti LOGOS
+Titulli Projektit : Klinike Dentare 
+
+Ky projekt eshte krijuar per nje klinike dentare e cila ka si qellim arritjen e nje audience me te gjere 
+me ane te internetit ne menyre qe te rrise pjesen e klientelse si dhe pjesen e fitimeve njekohesisht.
+Ne kete webside jane perdorur elemente te ndryshem ne menyre qe eksperienca e vizitorevte te jete 
+dicka e thjeshte jo shume komplekse por shume efikase ne ate cfare ai po kerkon.
+Ne krye te faqe eshte header-i me pozicion apsolute  i bere display flex dhe me ane te elementit 
+justify-content space between ben te mundur qe div logo dhe nav te zene pozicione ne skajet e headerit.
+Me pas vazhdojm me nje foto smily-face i vendosur si background dhe nje H1 i cili permbane 
+sloganin sloganin e klinikes "Ne kujdesemi per buzeqeshjen tuaj!" me font 'Comfortaa', cursive.
+Posht saj vazhojm me bllok opsionesh i cili i jep mundesi vizitorit per te kontaktuar me biznesin
+me ane te telefonit . Openin Houers e informon ate per oranin qe biznesuri eshte i hapur.
+Neqofte se ndonje nga vizitoret e webit eshte i interesuar per te caktuar ndonje takim me ane te 
+Book an Appointment mund te plotesoj nje forme per tja derguar biznesit. Ne kete ras eshte perdorur 
+Javascript per te hapur nje iframe me src book.html .
+E fundit dhe jo me pak e rendesishmja Location i cili i jep imformacion me te detajuar ne lidhje me 
+vendodhjen ne Google Maps.
+Ne hover te ketij bllok opsionesh jan venodsur 2 ndryshime te thjeshta njera eshte zmadhimi i imazhit me 
+tnasformim scale(1.5) si dhe ndryshimi i ngjyres se tekstit per ta bere me dije informuesin qe keto 
+opsione jane te klikueshme.
+Ne fund kemi nje shirit te erret i cili tregon sherbimet dhe jep me shume informacion ne lidhje me Dentisten.
+Ky eshte vetem fillimi i ndertimit te nje webside professional qe ne perfundim do jete i aksesueshem per te gjithe.
+
